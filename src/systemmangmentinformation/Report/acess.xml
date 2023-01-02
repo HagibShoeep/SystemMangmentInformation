@@ -1,0 +1,42 @@
+<?xml version="1.0"?><!-- iReport connections -->
+<iReportConnectionSet>
+	<iReportConnection name="Empty datasource" connectionClass="com.jaspersoft.ireport.designer.connection.JREmptyDatasourceConnection">
+		<connectionParameter name="records"><![CDATA[1]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="SystemTechnlogy_Project1" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[Admin]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerDriver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:sqlserver://localhost:1433;databaseName=SystemTechnlogy_Project]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="NameReport" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[Admin]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerDriver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:sqlserver://localhost:1433;databaseName=SystemTechnlogy_Project]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="first" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[Admin]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerDriver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:sqlserver://localhost:1433;databaseName=SystemTechnlogy_Project]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="add" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[Admin]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerDriver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:sqlserver://localhost:1433;databaseName=SystemTechnlogy_Project]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+</iReportConnectionSet>
